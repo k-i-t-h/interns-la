@@ -1,0 +1,76 @@
+.shadowStyle {
+  box-shadow: 0px 5px 35px 2px rgba(0, 0, 0, 0.13);
+  -ms-box-shadow: 0px 5px 35px 2px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 5px 35px 2px rgba(0, 0, 0, 0.13);
+  -o-box-shadow: 0px 5px 35px 2px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0px 5px 35px 2px rgba(0, 0, 0, 0.13);
+}
+
+.btn-job {
+  font-size: 1.3rem;
+}
+
+.cardStyle {
+  min-height: 350px;
+  max-height: 350px;
+}
+
+.__labelStyle {
+  font-size: 1.2rem;
+}
+
+.textArea {
+  min-height: 150px;
+}
+
+.cardImg {
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.cardFixed {
+  position: fixed;
+}
+
+.searchBar {
+  width: 40%;
+  margin-left: auto;
+}
+
+.showMoreCardImg {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.btn-create {
+  color: rgb(84, 158, 200);
+}
+.btn-delete {
+  color: rgb(221, 107, 107);
+}
+
+.customPaginate .rc-pagination-item,
+.customPaginate .rc-pagination-disabled,
+.customPaginate .rc-pagination-next {
+  color: #fff;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.customPaginate .rc-pagination-item-active {
+  background: #e14eca;
+  background-image: linear-gradient(to bottom left, #e14eca, #ba54f5, #e14eca);
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-color: #e14eca;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .formPreviewCard {
+    display: none;
+  }
+}
